@@ -1,4 +1,4 @@
 UPDATE `todoboard_dev`.`todos`
-SET
+SET 
 `IsProcessed` = 0
 WHERE `IsProcessed` = 1;
